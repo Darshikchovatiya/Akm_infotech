@@ -1,0 +1,14 @@
+.navbar-brand, .nav-link, .navbar-brand:focus, .navbar-brand:hover, .nav-link:focus, .nav-link:hover{
+    color: #fff;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.navbar{
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #fff;
+}

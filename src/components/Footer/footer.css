@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+}
+
+
+.site-footer {
+    background-color: rgb(33, 37, 41);
+    margin-top: 30px;
+    padding: 50px 0;
+}
+
+
+.site-footer .widget h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Lato';
+}
+
+.site-footer .widget p {
+    color: #f3f3f3;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.site-footer .widget ul {
+    list-style: none;
+    /* margin-bottom:16px; */
+    margin-bottom: 0;
+}
+
+/* .site-footer .widget ul li{
+	display:inline-block;
+} */
+
+.site-footer .widget .link li:not(:last-child) {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.site-footer .widget .link li a {
+    color: #f3f3f3;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.site-footer .quick-info .email {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+    padding-left: 30px;
+}
+
+.site-footer ul .email svg {
+    position: absolute;
+    content: '';
+    left: 0;
+    color: #f3f3f3;
+}
+
+.site-footer .widget ul .email a {
+    display: inline;
+}
